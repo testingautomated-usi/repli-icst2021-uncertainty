@@ -1,0 +1,22 @@
+# =========================================================================================================
+# This is an automatically generated file. It has the same content as the root folder 'requirements.tex',
+# except for the tensorflow import (which is removed as it will be inherited from tensorflow docker image)
+# =========================================================================================================
+
+# Uncertainty Wizard has to be imported manually during double blind review
+# - to maintain anonymity, pip download is disabled
+
+
+
+absl-py==0.8
+setuptools==41.0.0
+tensorflow-datasets==3.0.0
+matplotlib==3.3.1
+block-timer==0.2.0
+scikit-learn==0.23.2
+numpy==1.19.1
+scipy==1.5.2
+dataclasses==0.6
+uncertainty_wizard==0.0.14
+opencv-python==4.4.0.42
+scikit-image==0.17.2
